@@ -79,7 +79,7 @@ header a:hover {
     width: 898px;
 }
 
-.hero button {
+.hero a{
     border: none;
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -88,11 +88,12 @@ header a:hover {
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    text-decoration: none;
     padding: 21px 24px 21px 24px;
     transition: background-color 0.3s ease;
 }
 
-.hero button:hover {
+.hero a:hover {
     background-color: #444;
 }
 
@@ -244,6 +245,7 @@ iframe {
     background-size: cover;
     background-position: center;
     border-radius: 16px;
+    width: 100%;
 }
 
 .support-title {
